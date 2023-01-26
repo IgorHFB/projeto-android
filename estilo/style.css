@@ -31,7 +31,6 @@ header {
 header > p {
     max-width: 600px;
     margin: auto;
-    margin-top: 30px;
     font-weight: bold;
     font-size: 1.2em;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.700);
@@ -108,10 +107,20 @@ p > a:hover {
     text-decoration: underline;
 }
 
-iframe {
-    background-color: #FF9100;
-    width: 80%;
-    padding: 40px 40px;
+div.video {
+    background-color: #FF7001;
+    margin: 0 -10px 30px -10px;
+    padding: 20px;
+    padding-bottom: 55.5%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 ul {
